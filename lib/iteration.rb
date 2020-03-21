@@ -48,26 +48,27 @@ def find_greater_pair(src)
   # Produce a new Array that contains the larger number of each of the pairs
   # that are in the inner Arrays
   
-  new_array = []
-  row_index = 0
   
-  while row_index < src.count do
-    element_index = 0
+  # new_array = []
+  # row_index = 0
+  
+  # while row_index < src.count do
+  #   element_index = 0
     
-    while element_index < src[row_index].count do
+  #   while element_index < src[row_index].count do
       
-      if (src[row_index][element_index] >= src[row_index][element_index + 1])
-        new_array << src[row_index][element_index]
-      else
-        new_array << src[row_index][element_index + 1]
-      end
-      element_index += 2
+  #     if (src[row_index][element_index] >= src[row_index][element_index + 1])
+  #       new_array << src[row_index][element_index]
+  #     else
+  #       new_array << src[row_index][element_index + 1]
+  #     end
+  #     element_index += 2
       
-    end
-    row_index += 1
+  #   end
+  #   row_index += 1
     
-  end  
-  new_array
+  # end  
+  # new_array
   
 end
 
